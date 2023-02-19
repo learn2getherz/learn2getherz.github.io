@@ -1,139 +1,31 @@
-//Lazy Script
-function make(elementType) {
-    return {
-      from: function(id) {
-        this.id = id;
-        return this;
-      },
-      injectTo: function(parentElement) {
-        this.parentElement = parentElement;
-        return this;
-      },
-      content: function(content) {
-        this.content = content;
-        return this;
-      },
-      create: function() {
-        let newElement = document.createElement(elementType);
-        newElement.id = this.id;
-        newElement.innerHTML = this.content;
-        let parent = document.querySelector(this.parentElement);
-        if (!parent) {
-            console.log("Parent element not found!");
-            return;
-        }
-        parent.appendChild(newElement);
-      }
-    }
-}
-function id(name) {
-    let element = document.getElementById(name);
-    return {
-      AddClass: function(className) {
-        element.classList.add(className);
-      },
-      RemoveClass: function(className) {
-        element.classList.remove(className);
-      },
-      ToggleClass: function(className) {
-        element.classList.toggle(className);
-      }
-    }
-}
-function img(src) {
-    return {
-        id: function(id) {
-            this.id = id;
-            return this;
-        },
-        alt: function(alt) {
-            this.alt = alt;
-            return this;
-        },
-        to: function(parentElement) {
-            let newImg = document.createElement("img");
-            newImg.src = src;
-            newImg.id = this.id;
-            newImg.alt = this.alt;
-            let parent = document.querySelector(parentElement);
-            if (!parent) {
-                console.log("Parent element not found!");
-                return;
-            }
-            parent.appendChild(newImg);
-        }
-    }
-}
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
 
-//Lazy Variable
-class uni_var{
-  nav_keys = ["Home"]//, "Reads", "Account"]
-}
+const firebaseConfig = {
+  // Your Firebase project config
+  apiKey: "AIzaSyCeER56U-PYQC_lg6sZJWcf1KEXvmvEbQw",
+  authDomain: "learnwithme-e96d0.firebaseapp.com",
+  projectId: "learnwithme-e96d0",
+  storageBucket: "learnwithme-e96d0.appspot.com",
+  messagingSenderId: "977443361893",
+  appId: "1:977443361893:web:87d6dc6d3341c3e4ad628c",
+  measurementId: "G-LLRFVB2HL5"
+};
 
-function all_system(){
-  //Declares
-  let uv = new uni_var()
-  
-  //Seed Theme
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 
-  //Header
-  make("section").from("header").injectTo("body").content("").create()
-    
-    //Nav Bar
-    make("div").from("nav").injectTo("#header").content("").create()
-      //Logo
-      make("div").from("logo_container").injectTo("#nav").content("").create()
-      img("assets/imgs/logo.png").id("logo").alt("Logo").to("#logo_container")
-
-      //Message
-      make("div").from("logo_content").injectTo("#logo_container").content("").create()
-      make("h3").from("web_name").injectTo("#logo_content").content("Learn With Me!").create()
-      make("h4").from("web_subName").injectTo("#logo_content").content("Let our mind Grow, and Expand!").create()
-
-      //Navs Containers
-      make("div").from("nav_container").injectTo("#nav").content("").create()
-      for(i = 0; i < uv.nav_keys.length; i++){
-        make("li").from(uv.nav_keys[i] + "_nav").injectTo("#nav_container").content(uv.nav_keys[i]).create()
-        id(uv.nav_keys[i] + "_nav").AddClass("nav_list")
-      }
-      //Default
-      id(uv.nav_keys[0] + "_nav").AddClass("active_nav")
-      
-  //Body
-  make("section").from("content").injectTo("body").content("").create()
-
-  //Footer
-  make("section").from("footer").injectTo("body").content("").create()
-}
-
-function home_content(){
-  //Declare
-  let uv = new uni_var()
-
-  for(i = 0; i < uv.nav_keys.length; i++){
-    make("div").from(uv.nav_keys[i] + "_page_content").injectTo("#content").content("").create()
-    id(uv.nav_keys[i] + "_page_content").AddClass("page")
-  }
-
-  make("div").from(uv.nav_keys[0] + "_content").injectTo(uv.nav_keys[0] + "_page_content").content("").create(b)
-      //Home
-        //What is New!
-        //Featured!
-        //Random
-        //All
-
-      //Read
-        //On Progress
-        //Finished
-        //To Read
-      
-      //Account
-}
-
-//It aranges all the class and function on the JS
-function constructor(){
-  all_system()
-  home_content()
-}
-//always run
-constructor()
+// Handle Google sign-in button click
+const googleSignInBtn = document.getElementById("google-sign-in-btn");
+googleSignInBtn.addEventListener("click", () => {
+  const provider = new GoogleAuthProvider();
+  signInWithPopup(auth, provider)
+    .then((result) => {
+      const user = result.user;
+      const userInfo = document.getElementById("user-info");
+      userInfo.innerHTML = `Logged in as ${user.displayName} (${user.email})`;
+    })
+    .catch((error) => {
+      console.error(`Error signing in with Google: ${error.message}`);
+    });
+});
