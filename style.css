@@ -23,6 +23,6 @@ body {
     border-top: 1px solid #F0F0F0;
   }
 
-  code, pre, .highlight {    
-    background-color: #161b22;
+  code, pre, .highlight, .language-plaintext, .highlighter-rouge {    
+    background-color: #161b22;    
   }
