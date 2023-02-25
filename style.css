@@ -23,6 +23,10 @@ hr {
   border-top: 1px solid #F0F0F0;
 }
 
+.markdown-body code, .markdown-body tt{
+  background-color: #3c3c3c;
+}
+
 .markdown-body .highlight pre, .markdown-body pre, .highlighter-rouge{    
   background-color: #3c3c3c;
   border-radius: 0px;
