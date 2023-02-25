@@ -39,4 +39,9 @@ print("Hello, world!")
     * Integer - Used to store whole numbers, for example: `x = 69`
     * Float - Used to store decimal numbers, for example: `y = 3.14`
     * Boolean - Used to store true or false values, for example: `is_love = True`
-    * 
+    * String - Used to store text values, for example: `name = "John"`
+    * List - Used to store a collection of values, for example: `fruits = ["apple", "banana", "orange"]
+    * Tuple - Similar to lists, but the values are immutable (cannot be changed), for example: `coordinates = (1, 2)`
+    * Dictionary - Used to store key-value pairs, for example: `person = {"name": "John", "age": 30}`
+
+To assign a value to a variable, you can use the equal sign `(=)`. For example: `x = 5` assigns the `value 5` to the `variable x`. You can also change the value of a variable by assigning a new value to it: `x = 6` changes the value of `x` to `6`.
