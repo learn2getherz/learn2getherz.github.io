@@ -24,5 +24,6 @@ body {
   }
 
   .markdown-body .highlight pre, .markdown-body pre{    
-    background-color: #3f3f3f;    
+    background-color: #3c3c3c;
+    border-radius: 0px;
   }
