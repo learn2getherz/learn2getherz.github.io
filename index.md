@@ -31,3 +31,5 @@ At Learn2getherz, we're committed to providing a high-quality, accessible, and a
 <hr>
 
 [Bro Code From YouTube](https://www.youtube.com/@BroCodez)
+
+[w3school](https://www.w3schools.com/)
