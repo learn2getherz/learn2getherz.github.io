@@ -6,7 +6,7 @@ layout: default
 </head>
 
 # Python Syntax
-[<Home ](../../../../index.md)
+[<Home |](../../../../index.md)
 
 
 1. Make a 
