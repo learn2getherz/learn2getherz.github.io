@@ -11,6 +11,7 @@ layout: default
 
 ### Hello World
 > When you run this code, it will print the text "Hello, world!" to the console. This is a simple but important first step in learning Python.
+
 ```
 print("Hello, world!")
 ```
