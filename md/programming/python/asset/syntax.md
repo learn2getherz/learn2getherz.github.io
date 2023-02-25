@@ -33,6 +33,7 @@ print("Hello, world!")
         """
     ```
 <br>
+<hr>
 
 ### Python Data Variables
 * There are several types of variables in Python, including:    
@@ -45,3 +46,12 @@ print("Hello, world!")
     * Dictionary - Used to store key-value pairs, for example: `person = {"name": "John", "age": 30}`
 
 To assign a value to a variable, you can use the equal sign `(=)`. For example: `x = 5` assigns the `value 5` to the `variable x`. You can also change the value of a variable by assigning a new value to it: `x = 6` changes the value of `x` to `6`.
+
+<hr>
+
+### Variable Name
+In Python, variable names can consist of letters (`uppercase` and `lowercase`), digits, and underscores. However, variable names cannot start with a digit. It is also important to note that variable names are case sensitive, so `"my_variable"` and `"My_Variable"` would be treated as different variables.
+
+It is a good practice to choose variable names that are descriptive and easy to understand. Variable names should also follow a consistent naming convention, such as using lowercase letters and underscores to separate words `(e.g. my_variable_name)`. This can make your code easier to read and understand, especially for other people who may be working with your code.
+
+There are some reserved keywords in Python that cannot be used as variable names because they have special meanings in the language. Examples of reserved keywords include `"if"`, `"else"`, `"for"`, `"while"`, `"def"`, `"class"`, and `"import"`, among others.
