@@ -6,9 +6,9 @@ Python is a widely used high-level programming language that was first released 
 
 ### Installing Python
 * Windows:
-1. Go to the Python website and download the latest version of Python for Windows.
-2. Run the installer and follow the prompts to install Python on your computer.
-3. Make sure to check the box that adds Python to your system path.
+    1. Go to the Python website and download the latest version of Python for Windows.
+    2. Run the installer and follow the prompts to install Python on your computer.
+    3. Make sure to check the box that adds Python to your system path.
 
 * Setting up an IDE
 
