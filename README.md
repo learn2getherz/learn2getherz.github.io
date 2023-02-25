@@ -1,6 +1,5 @@
 # Learn Together
 
-
 Welcome to Learn2getherz, an online learning platform that is designed to help you teach and learn a variety of subjects. Whether you're interested in coding, science, math, or any other subject, our platform provides you with the tools and resources you need to create engaging and effective lessons.
 
 Our platform is built around the idea of collaboration and community. We believe that learning is most effective when it's done together, so we've created a space where teachers and students can come together to share knowledge, ideas, and feedback. With our platform, you can connect with other teachers and students from around the world, collaborate on projects, and get support when you need it.

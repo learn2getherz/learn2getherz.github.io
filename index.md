@@ -5,7 +5,7 @@ layout: default
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
-# Learn Together
+## Learn Together
 
 Welcome to Learn2getherz, an online learning platform that is designed to help you teach and learn a variety of subjects. Whether you're interested in coding, science, math, or any other subject, our platform provides you with the tools and resources you need to create engaging and effective lessons.
 
