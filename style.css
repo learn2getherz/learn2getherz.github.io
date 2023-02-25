@@ -1,29 +1,30 @@
 body {
-    background-color: #1A1A1D;
-    color: #F0F0F0;
-  }
+  background-color: #1A1A1D;
+  color: #F0F0F0;
+}
 
-  a {
-    color: #1fbbba;
-  }
+a {
+  color: #1fbbba;    
+}
 
-  a:hover {
-    color: #F0F0F0;
-  }
+a:hover {
+  color: #F0F0F0;
+}
 
-  h1{
-    display:none;
-  }
+h1{
+  display:none;
+}
 
-  h2, h3, h4, h5, h6 {
-    color: #F0F0F0;
-  }
+h2, h3, h4, h5, h6 {
+  color: #F0F0F0;
+}
 
-  hr {
-    border-top: 1px solid #F0F0F0;
-  }
+hr {
+  border-top: 1px solid #F0F0F0;
+}
 
-  .markdown-body .highlight pre, .markdown-body pre{    
-    background-color: #3c3c3c;
-    border-radius: 0px;
-  }
+.markdown-body .highlight pre, .markdown-body pre, .highlighter-rouge{    
+  background-color: #3c3c3c;
+  border-radius: 0px;
+  
+}
