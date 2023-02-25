@@ -8,3 +8,12 @@ Our platform is built around the idea of collaboration and community. We believe
 Our platform is also designed to be flexible and adaptable. You can create your own custom curriculum, or use one of our pre-built courses as a starting point. You can teach in real-time through our virtual classrooms, or provide pre-recorded lectures for students to watch at their own pace. And with our powerful analytics tools, you can track your students' progress and adjust your teaching to meet their individual needs.
 
 At Learn2getherz, we're committed to providing a high-quality, accessible, and affordable learning experience for everyone. Whether you're a teacher or a student, we invite you to join our community and start learning today! [Visit Now?](https://learn2getherz.github.io/)
+
+## Learn Programming?
+* [Python](test.md)
+* Java
+
+## Learn Web Frontend?
+* HTML
+* CSS
+* Javascript
