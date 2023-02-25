@@ -55,3 +55,24 @@ In Python, variable names can consist of letters (`uppercase` and `lowercase`), 
 It is a good practice to choose variable names that are descriptive and easy to understand. Variable names should also follow a consistent naming convention, such as using lowercase letters and underscores to separate words `(e.g. my_variable_name)`. This can make your code easier to read and understand, especially for other people who may be working with your code.
 
 There are some reserved keywords in Python that cannot be used as variable names because they have special meanings in the language. Examples of reserved keywords include `"if"`, `"else"`, `"for"`, `"while"`, `"def"`, `"class"`, and `"import"`, among others.
+
+<hr>
+
+### Assigning Multiple Values
+
+In Python, you can assign multiple values to multiple variables at the same time using a technique called "multiple assignment" or "tuple unpacking".
+Here's an example:
+
+```
+x, y, z = 1, 2, 3
+```
+
+This assigns the values 1, 2, and 3 to variables `x`, `y`, and `z`, respectively. The commas separate the values, and the equals sign assigns them to their corresponding variables.
+
+You can also use multiple assignment with lists and tuples:
+```
+fruits = ["apple", "banana", "orange"]
+a, b, c = fruits
+```
+
+This assigns the first value in the fruits list `("apple")` to variable `a`, the second value `("banana")` to variable `b`, and the third value `("orange")` to variable `c`.
