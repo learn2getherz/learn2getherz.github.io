@@ -29,4 +29,4 @@ At Learn2getherz, we're committed to providing a high-quality, accessible, and a
 ### Reference
 <hr>
 
-* [Bro Code | Youtube](https://www.youtube.com/@BroCodez)
+[Bro Code | Youtube](https://www.youtube.com/@BroCodez)
