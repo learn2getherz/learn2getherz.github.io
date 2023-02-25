@@ -9,4 +9,8 @@ layout: default
 [<Home |](../../../../index.md) [<Back |](../python.md)
 
 
-1. Make a 
+### Hello World
+> When you run this code, it will print the text "Hello, world!" to the console. This is a simple but important first step in learning Python.
+```
+print("Hello, world!")
+```
