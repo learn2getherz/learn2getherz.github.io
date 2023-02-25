@@ -10,6 +10,24 @@ Python is a widely used high-level programming language that was first released 
     * Run the installer and follow the prompts to install Python on your computer.
     * Make sure to check the box that adds Python to your system path.
 
-* Setting up an IDE
+* Mac OS:
+    * Go to the Python website and download the latest version of Python for Mac OS.
+    * Run the installer and follow the prompts to install Python on your computer.
+    * You can also install Python using Homebrew, a popular package manager for Mac OS.
 
-* The Syntax
+* Linux:
+    * Most Linux distributions come with Python pre-installed. To check if Python is already installed, open a terminal window and type python --version.
+    * If Python is not already installed, use your distribution's package manager to install it. For example, on Ubuntu, you can use the command sudo apt-get install python3 to install Python 3.
+
+### Setting up an IDE
+Once you have installed Python, you can open a command prompt or terminal window and type python to start the Python interpreter. This will allow you to write and run Python code directly from the command line.
+
+If you want to use an Integrated Development Environment (IDE) to write Python code, there are many popular options available, including PyCharm, Visual Studio Code, and Spyder.
+
+### The Syntax
+* Basic Syntax
+* Tkinter
+* Kivy
+* Pyqt5
+* Django
+* Flask
