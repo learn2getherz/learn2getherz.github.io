@@ -76,3 +76,30 @@ a, b, c = fruits
 ```
 
 This assigns the first value in the fruits list `("apple")` to variable `a`, the second value `("banana")` to variable `b`, and the third value `("orange")` to variable `c`.
+
+<hr>
+
+In Python, you can output variables using the `print()` function. The syntax is `print(variable_name)`, where `variable_name` is the name of the variable you want to print.
+
+For example, if you have a variable `x` that stores the value `10`, you can output it to the console like this:
+```
+x = 10
+print(x)
+```
+
+> This will output `10` to the console.
+
+You can also output multiple variables at once by separating them with commas:
+```
+x = 10
+y = 20
+print(x, y)
+```
+> This will output `10 20` to the console.
+
+You can also format the output using string formatting. For example, you can use the `%` operator to format a string:
+```
+x = 10
+print("The value of x is %d" % x)
+```
+> This will output The value of `x` is `10` to the console.
