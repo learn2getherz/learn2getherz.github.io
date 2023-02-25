@@ -25,7 +25,7 @@ Once you have installed Python, you can open a command prompt or terminal window
 If you want to use an Integrated Development Environment (IDE) to write Python code, there are many popular options available, including PyCharm, Visual Studio Code, and Spyder.
 
 ### The Syntax
-* Basic Syntax
+* [Basic Syntax](asset/syntax.md)
 * Tkinter
 * Kivy
 * Pyqt5
