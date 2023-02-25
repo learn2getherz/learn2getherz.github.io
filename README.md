@@ -10,7 +10,7 @@ Our platform is also designed to be flexible and adaptable. You can create your 
 At Learn2getherz, we're committed to providing a high-quality, accessible, and affordable learning experience for everyone. Whether you're a teacher or a student, we invite you to join our community and start learning today! [Visit Now?](https://learn2getherz.github.io/)
 
 ## Learn Programming?
-* [Python](test.md)
+* [Python](md/programming/python/python.md)
 * Java
 
 ## Learn Web Frontend?
