@@ -6,7 +6,7 @@ layout: default
 </head>
 
 ## Python Syntax
-[<Home |](../../../../index.md) [<Back |]("google.com")
+[<Home |](../../../../index.md) [<Back |](../python.md)
 
 
 1. Make a 
