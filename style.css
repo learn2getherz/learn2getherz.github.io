@@ -27,3 +27,11 @@ body {
     background-color: #F0F0F0;
     color: #1A1A1D;
   }
+
+  pre.highlight {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
