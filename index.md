@@ -1,34 +1,5 @@
 <head>
-  <meta charset="UTF-8">
-  <title>My Website</title>
-  <style>
-    /* Add the CSS code here */
-      body {
-    background-color: #1A1A1D;
-    color: #F0F0F0;
-  }
-
-  a {
-    color: #8F8F8F;
-  }
-
-  a:hover {
-    color: #F0F0F0;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: #F0F0F0;
-  }
-
-  hr {
-    border-top: 1px solid #F0F0F0;
-  }
-
-  code, pre {
-    background-color: #F0F0F0;
-    color: #1A1A1D;
-  }
-  </style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 # Learn Together
