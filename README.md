@@ -12,7 +12,9 @@ At Learn2getherz, we're committed to providing a high-quality, accessible, and a
 ## Learn Programming?
 * [Python](md/programming/python/python.md)
 * Java
-
+* Ruby
+* C
+* Rust
 ## Learn Web Frontend?
 * HTML
 * CSS
