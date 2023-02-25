@@ -37,4 +37,3 @@ print("Hello, world!")
 ### Python Data Variables
 * There are several types of variables in Python, including:    
     1. Integer - Used to store whole numbers, for example: `x = 5`
-    
