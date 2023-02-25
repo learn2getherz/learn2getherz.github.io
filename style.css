@@ -1,14 +1,28 @@
-/* Light mode styles */
 body {
-    background-color: white;
-    color: black;
-  }
-  
-  /* Dark mode styles */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: black;
-      color: white;
-    }
-  }
-  
+    background-color: #222;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+code {
+    background-color: #444;
+    color: #fff;
+    padding: 2px 5px;
+    font-family: monospace;
+}
